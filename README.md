@@ -34,3 +34,16 @@ wsl --install -d Ubuntu-22.04
 wsl --set-version Ubuntu-22.04 2
 ```
 
+```
+wsl --list --verbose
+```
+
+Se all'ultimo comando vediamo come output qualcosa di simile, possiamo considerare questo passggio completato
+
+```
+  NAME                   STATE           VERSION
+* docker-desktop-data    Running         2
+  docker-desktop         Running         2
+  Ubuntu-22.04           Stopped         2
+```
+
