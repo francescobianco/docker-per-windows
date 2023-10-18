@@ -51,3 +51,10 @@ Se all'ultimo comando vediamo come output qualcosa di simile, possiamo considera
 * Ubuntu-22.04           Stopped         2
 ```
 
+## Attivare WSL 2 su Docker Desktop
+
+
+Andare nei Settings di Docker Desktop e impostare i flag come mostrato nelle seguenti immagini
+
+![Screenshot from 2023-10-18 17-09-49](https://github.com/francescobianco/docker-per-windows/assets/472171/795bd674-c21d-4ebe-af44-ba0bf92fc7cb)
+
