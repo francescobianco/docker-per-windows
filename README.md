@@ -6,7 +6,7 @@ Le sezioni seguenti presentano dei test delle procedure da eseguire per essere s
 
 ## Verificare e Preparazione WSL
 
-Aprire `cmd.exe` è lanciare il seguente comando 
+Aprire `cmd.exe` con in privilegi di Administrator è lanciare il seguente comando 
 
 ```
 wsl --update
@@ -35,6 +35,10 @@ wsl --set-version Ubuntu-22.04 2
 ```
 
 ```
+wsl --setdefault Ubuntu-22.04
+```
+
+```
 wsl --list --verbose
 ```
 
@@ -42,8 +46,8 @@ Se all'ultimo comando vediamo come output qualcosa di simile, possiamo considera
 
 ```
   NAME                   STATE           VERSION
-* docker-desktop-data    Running         2
+  docker-desktop-data    Running         2
   docker-desktop         Running         2
-  Ubuntu-22.04           Stopped         2
+* Ubuntu-22.04           Stopped         2
 ```
 
