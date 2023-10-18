@@ -71,3 +71,19 @@ Andare nei Settings di Docker Desktop e impostare i flag come mostrato nelle seg
 
 Dopo aver impostato tutto come indicato cliccare su "Apply & Restart". Poi chiudere Docker Desktop completamente (non lasciarlo in background) e verificare riaprendolo che tutto sia rimasto impostato come indicato in precedenza.
 
+## Velocità dei dischi
+
+In ambito sviluppo di fa spesso uso della funzione di mount dei volumi locali per creare ambienti di sviluppo, questo richiede un buon accesso alla funzionalità di lettura e scrittura del disco, copiare il seguente comando ed fare delle considerazioni sui risultati ottenuti
+
+```
+docker run --rm -v %CD%/data:/iops/data tooldockers/iops --randrepeat=1 --ioengine=libaio --direct=1 --gtod_reduce=1 --name=test --filename=test --bs=4k --iodepth=64 --size=4G --readwrite=randrw --rwmixread=75
+```
+
+Se i valori ripotati sono simili a riportati sotto o migliori tutto potrebbe andare bene se invece sono peggiori bisognera considerare di cambiare disco o addirittura sistema operativo, passando a Ubuntu direttamente
+
+```
+Run status group 0 (all jobs):
+   READ: bw=194MiB/s (204MB/s), 194MiB/s-194MiB/s (204MB/s-204MB/s), io=3070MiB (3219MB), run=15802-15802msec
+  WRITE: bw=64.9MiB/s (68.1MB/s), 64.9MiB/s-64.9MiB/s (68.1MB/s-68.1MB/s), io=1026MiB (1076MB), run=15802-15802msec
+```
+
