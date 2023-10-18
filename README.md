@@ -4,6 +4,16 @@ Questa guida ha lo scopo di migliorare e ottimizzare le performace di Docker su 
 
 Le sezioni seguenti presentano dei test delle procedure da eseguire per essere sicuri di avere il miglior risultato possibile
 
+## Installare Docker Desktop
+
+Installare Docker per Windows raggiungibile a questo link <https://docs.docker.com/desktop/install/windows-install/>
+
+Assicurarsi di rispettare questi requisiti
+
+- Avere installato Docker Desktop almeno alla version 4.24 o superiore
+- Avere almeno 80GB disponibili nel proprio disco principale
+- Avere almeno 16GB di RAM e non avere macchine virtuali avviate nel proprio PC
+
 ## Verificare e Preparazione WSL
 
 Aprire `cmd.exe` con in privilegi di Administrator è lanciare il seguente comando 
@@ -53,8 +63,11 @@ Se all'ultimo comando vediamo come output qualcosa di simile, possiamo considera
 
 ## Attivare WSL 2 su Docker Desktop
 
-
 Andare nei Settings di Docker Desktop e impostare i flag come mostrato nelle seguenti immagini
 
 ![Screenshot from 2023-10-18 17-09-49](https://github.com/francescobianco/docker-per-windows/assets/472171/795bd674-c21d-4ebe-af44-ba0bf92fc7cb)
+
+![Screenshot from 2023-10-18 17-18-18](https://github.com/francescobianco/docker-per-windows/assets/472171/10816f02-dd9d-4e8c-844e-32e0fca032d6)
+
+Dopo aver impostato tutto come indicato cliccare su "Apply & Restart". Poi chiudere Docker Desktop completamente (non lasciarlo in background) e verificare riaprendolo che tutto sia rimasto impostato come indicato in precedenza.
 
