@@ -65,9 +65,9 @@ Se all'ultimo comando vediamo come output qualcosa di simile, possiamo considera
 
 Andare nei Settings di Docker Desktop e impostare i flag come mostrato nelle seguenti immagini
 
-![Screenshot from 2023-10-18 17-09-49](https://github.com/francescobianco/docker-per-windows/assets/472171/795bd674-c21d-4ebe-af44-ba0bf92fc7cb)
+<img alt="Screenshot from 2023-10-18 17-09-49" src="https://github.com/francescobianco/docker-per-windows/assets/472171/795bd674-c21d-4ebe-af44-ba0bf92fc7cb" width="100%">
 
-![Screenshot from 2023-10-18 17-18-18](https://github.com/francescobianco/docker-per-windows/assets/472171/10816f02-dd9d-4e8c-844e-32e0fca032d6)
+<img alt="Screenshot from 2023-10-18 17-18-18" src="https://github.com/francescobianco/docker-per-windows/assets/472171/10816f02-dd9d-4e8c-844e-32e0fca032d6" width="100%">
 
 Dopo aver impostato tutto come indicato cliccare su "Apply & Restart". Poi chiudere Docker Desktop completamente (non lasciarlo in background) e verificare riaprendolo che tutto sia rimasto impostato come indicato in precedenza.
 
