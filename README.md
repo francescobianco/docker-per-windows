@@ -6,17 +6,17 @@ Le sezioni seguenti presentano dei test delle procedure da eseguire per essere s
 
 ## Installare Docker Desktop
 
-Installare Docker per Windows raggiungibile a questo link <https://docs.docker.com/desktop/install/windows-install/>
+Installare Docker per Windows raggiungibile a questo link: [📥 Download](https://docs.docker.com/desktop/install/windows-install/)
 
 Assicurarsi di rispettare questi requisiti
 
-- Avere installato Docker Desktop almeno alla version 4.24 o superiore
+- Avere installato Docker Desktop almeno alla version 4.28 o superiore
 - Avere almeno 80GB disponibili nel proprio disco principale
 - Avere almeno 16GB di RAM e non avere macchine virtuali avviate nel proprio PC
 
 ## Verificare e Preparazione WSL
 
-Aprire `cmd.exe` con in privilegi di Administrator è lanciare il seguente comando 
+Aprire `cmd.exe` con in privilegi di amministratore è lanciare il seguente comando 
 
 ```
 wsl --update
