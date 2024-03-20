@@ -10,9 +10,10 @@ Installare Docker per Windows raggiungibile a questo link: [📥 Download](https
 
 Assicurarsi di rispettare questi requisiti
 
-- Avere installato Docker Desktop almeno alla version 4.28 o superiore
-- Avere almeno 80GB disponibili nel proprio disco principale
-- Avere almeno 16GB di RAM e non avere macchine virtuali avviate nel proprio PC
+1. Avere installato Docker Desktop almeno alla version 4.28 o superiore
+2. Avere almeno 80GB disponibili nel proprio disco principale
+3. Avere almeno 16GB di RAM nel proprio sistema
+4. Non avere macchine virtuali avviate mente si usa Docker
 
 ## Verificare e Preparazione WSL
 
